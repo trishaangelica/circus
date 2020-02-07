@@ -14,9 +14,7 @@ public class Trainer {
         System.out.println(a.speak());
         Duck d2 = (Duck) a; // downcasting
         train(new Duck());
-        train(new Parrot());
-        //circus.Animal.circus.Animal a2 = new circus.Animal.circus.Animal();
-        //circus.Animal.Bird b2 = new circus.Animal.Bird();
+        // train(new Parrot());
     }
 
     private static void train(Bird bird) {
